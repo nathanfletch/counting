@@ -1,0 +1,55 @@
+html {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(191, 187, 255);
+  font-size: 100px;  
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.flex-child {
+  flex: 1;
+  border: 1px dotted black;
+  display: flex;
+  align-items: center; 
+  margin: auto;
+  justify-content: center;
+  background-size: cover;
+  
+  width: 100%;
+}
+
+h1 {
+  /* margin: auto; */
+  font-size: 100px;
+  color: red;
+}
+
+.count-by {
+  font-size: 40px;
+  display: flex;
+  font: auto;
+  color: blue;
+}
+
+#count-input {
+  height: 50%;
+  font-family: inherit;
+  font-size: 60px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 20%;
+}
+
+.display {
+  /* text-color: red; */
+  flex:2;
+  font-size: 150px;
+  color: green;
+}
